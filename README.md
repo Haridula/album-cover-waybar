@@ -1,6 +1,14 @@
 # album-cover-waybar
 Bash script which shows the album cover from spotify on a waybar. I'll show you how to add it to your waybar's jsonc.
 
+__By the way__, you can change player, which from the image fetches to the bar by changing --player flag in the scripts first variable.
+
+It's here:
+```bash
+CURRENT_URL=$(playerctl --player spotify metadata --format '{{mpris:artUrl}}' 2>/dev/null)
+```
+Just change spotify for another player name in your system and that's it.
+
 ## Preview
 
 ![](https://raw.githubusercontent.com/Haridula/album-cover-waybar/48eed0b285bafafb5ffe86b6ef860f6e2cf0b85c/assets/preview.png)

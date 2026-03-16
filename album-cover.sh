@@ -4,7 +4,7 @@ if [ ! -f /tmp/cover-url.txt ]; then
     touch /tmp/cover-url.txt
 fi
 
-CURRENT_URL=$(playerctl --player spotify  metadata --format '{{mpris:artUrl}}' 2>/dev/null)
+CURRENT_URL=$(playerctl --player spotify metadata --format '{{mpris:artUrl}}' 2>/dev/null)
 
 PREV_URL=$(cat /tmp/cover-url.txt)
 
