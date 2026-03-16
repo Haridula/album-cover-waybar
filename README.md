@@ -1,7 +1,7 @@
 # album-cover-waybar
 Bash script which shows the album cover from spotify on a waybar. I'll show you how to add it to your waybar's jsonc.
 
-__By the way__, you can change player, which from the image fetches to the bar by changing --player flag in the script's first variable.
+__By the way__, you can change player, which from the image fetches to the bar by changing --player flag value in the script's first variable.
 
 It's here:
 ```bash
